@@ -5,35 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Meu perfil</title>
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Meu contato</a></li>
-    </ul>
 
-    <h1>Sobre o Filipe</h1>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Meu contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus veritatis debitis quod voluptas vero
-        reiciendis, sit eos adipisci placeat exercitationem, est nulla dolore porro consequatur accusamus. Vel repellat
-        consectetur mollitia!</p>
+    <main class="container">
+        <h1 class="center">Sobre a Horda</h1>
+        <div>
+            <img class="width padding" src="assets/img/horde.png" alt="Foto do criador desse conteúdo">
+        </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam enim fugiat veritatis, porro repellat
-        placeat dolore excepturi fuga iste odit amet ducimus, impedit modi voluptatem, aliquam quidem eligendi ipsam.
-    </p>
+        <article class="padding">
+            <p class="justify">A Horda é uma das duas grandes facções mortais que dividem o mundo de Azeroth. Ela é
+                formada pelos estrangeiros orcs, que sobreviveram aos obstáculos se aliando com povos nativos do mundo
+                de Azeroth.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque iste sint dolor est? Mollitia consequuntur eum
-        natus tempore dolore explicabo eos, accusantium, nam totam velit at magni maiores hic vitae!</p>
+            <p class="justify">Em World of Warcraft sua organização contraparte é a Aliança.</p>
 
-    <img src="../assets/imagens/saitama.png" alt="Foto do criador desse conteúdo" width="350px">
+            <p class="justify">A Horda é composta principalmente pelos orcs de Durotar e seus aliados: os trolls
+                Lançanegra, os taurinos de Mulgore, os mortos-vivos renegados de Cidade Baixa, os elfos de Sangue do
+                Reino de Quel'Thalas , os goblins do Cartel Borraquilha e, mais recentemente, os pandarinos que seguem a
+                filosofia Houjin.</p>
 
-    <h2>Meu vídeo predileto:</h2>
+            <p class="justify">A principal cidade da Nova Horda é Orgrimmar e seu chefe guerreiro foi o orc Thrall, que
+                eventualmente passou o manto de chefe guerreiro para Garrosh Grito Infernal, que, após ser deposto por
+                uma rebelião, foi substituído na liderança da Horda pelo troll da selva Vol'jin até este ser morto em
+                combate e substituído pela nova chefe guerreira Sylvana Correventos.</p>
+        </article>
+    </main>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1Kys9jSLx4Q" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <h2 class="center">For the Horde!</h2>
+
+    <div class="container">
+        <iframe class="wow" width="560" height="315" src="https://www.youtube.com/embed/jSJr3dXZfcg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com.br" target="_blank"><img class="tamanhoSocial"
+                    src="assets/img/linkedin.png" alt="Logo do LinkedIn"></a>
+        </div>
+        <p class="center">Filipe Cavalcanti &copy;</p>
+    </footer>
 </body>
 
 </html>
