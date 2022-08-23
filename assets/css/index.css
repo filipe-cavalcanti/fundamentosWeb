@@ -1,0 +1,88 @@
+/* Estilos da página index.html e contato.html */
+
+html {
+    /* 1 rem = 16px(User Agent) = 100%(User Agent) /font-size: 62.5%; / 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7d1919;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: #7d1919;
+    box-shadow: 1px 5px 3px #000000;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    width: 100vw;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    font-size: 2.1rem;
+    text-align: justify;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.width {
+    width: 15rem;
+}
+
+.tamanhoSocial {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+@media (max-width: 905px) {
+
+.wow {
+    width: 430px;
+    height: 235px;
+    }
+
+}
